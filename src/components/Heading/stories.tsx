@@ -7,12 +7,20 @@ export default {
   argTypes: {
     children: {
       type: 'string'
+    },
+    leftLine: {
+      type: 'boolean'
+    },
+    lineBotton: {
+      type: 'boolean'
     }
   }
 } as Meta
 
 export const Default: StoryObj<HeadingProps> = {
-  args:{
-    children: 'Most Pupolars'
+  args: {
+    children: 'Most Pupolars',
+    leftLine: true,
+    lineBottom: false
   }
 }
