@@ -8,10 +8,10 @@ export default {
     children: {
       type: 'string'
     },
-    leftLine: {
+    $leftLine: {
       type: 'boolean'
     },
-    lineBotton: {
+    $lineBotton: {
       type: 'boolean'
     }
   }
@@ -20,7 +20,7 @@ export default {
 export const Default: StoryObj<HeadingProps> = {
   args: {
     children: 'Most Pupolars',
-    leftLine: true,
-    lineBottom: false
+    $leftLine: true,
+    $lineBottom: false
   }
 }
