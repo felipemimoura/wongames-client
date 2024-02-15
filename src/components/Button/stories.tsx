@@ -8,6 +8,8 @@ export default {
 
 export const Default: StoryObj<ButtonProps> = {
   args: {
-    children: 'Buy now'
+    children: 'Buy now',
+    $fullWidth: false,
+    size: 'medium'
   }
 }
